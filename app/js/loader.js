@@ -21,9 +21,11 @@ $(document).ready(function(){
 		$("#wait").css("display", "block");
 		$("#contenidoTabla").css("display", "none");
 		$("#detallePremio").css("display", "none");
+		$("#imagenHeader").css("display", "none");
     });
 	$(document).ajaxComplete(function(){
 		$("#wait").css("display", "none");
 		$("#contenidoTabla").css("display", "block");
+		$("#imagenHeader").css("display", "block");
     });
 });
