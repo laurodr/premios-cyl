@@ -126,3 +126,6 @@ hr.subtitle{
 	color: #9f0b28;
 	font-weight:bold;
 }
+.img-opacity-70{
+	filter: brightness(70%);
+}

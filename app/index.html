@@ -21,7 +21,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Agenda Premios JCyL</title>
+		<title>Premios JCyL</title>
 	 	<link rel="icon" href="img/icon.png">
 		<!-- JQUERY -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -57,13 +57,13 @@
 			<div class="panel">
 				<nav class="navbar navbar-expand-md bg-light navbar-light">
 					<a class="navbar-brand" href="index.html">
-						<img src="#" height="100px"/> Agenda Premios JCyL
+						<img src="img/logo.png" height="100px"/>
   					</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="margin-top: 3%;">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="collapsibleNavbar">
-						<ul class="navbar-nav">
+					<div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="collapsibleNavbar">
+						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
 								<button id="infoApp" class="btn btn-link nav-link" data-toggle="modal" data-target="#myModal"><i class="fas fa-info-circle"></i> Info</button>
 							</li>    
@@ -78,22 +78,31 @@
 				<div class="modal-content">
 				<!-- Modal Header -->
 					<div class="modal-header">
-						<h4 class="modal-title">Agenda Premios JCyL</h4>
+						<h4 class="modal-title">Premios JCyL</h4>
 						<button type="button" class="close" data-dismiss="modal">&times;</button>
       				</div>
 	  				<!-- Modal body -->
 	  				<div class="modal-body">
 	  					<p>
-		  					Bienvenido a la Agenda de Premios de la Junta de Castilla y León
+		  					Bienvenido a la Agenda de Premios de la Junta de Castilla y León. 
+		  					En este portal web podrás consultar todas las convocatorias de
+		  					premios organizados por la Junta de Castilla y León, y todos los 
+		  					datos relativos a las mismas.<br><br>
+		  					Las convocatorias aparecen listadas por orden descendente de 
+		  					fecha de publicación en el BOCyL. Para ver la información de una 
+		  					convocatoria pulsar en el correspondiente icono de <i>ver</i>.
 	  					</p>
       				</div>
 	  				<!-- Modal footer -->
 	  				<div class="modal-footer">
-	  					<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+	  					<button type="button" class="btn btn-cyl" data-dismiss="modal">Cerrar</button>
       				</div>
     			</div>
   			</div>
 		</div>
+		<div class="container">
+			<img src="img/header.png" style="width:100%;"/>			
+		</div>		
 		<!-- TABLE VIEW LOADER -->
 		<center>
 			<div id="wait" style="display:none; margin-top:10%">
