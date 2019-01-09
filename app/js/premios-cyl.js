@@ -211,9 +211,9 @@ $(function() {
 	  				html_content = html_content + "<h3 id='info'><i class='fas fa-info-circle'></i> Información Adicional </h3><hr class='subtitle'>" + item.informaci_n_adicional + "<br><br>";
   				}     				  				 				 				  				  			  
   				if(item.enlace_al_contenido == null){
-	  				html_content = html_content + "<h3 id='enlace'><i class='fas fa-globe'></i> Enlace Contenido y documentos asociados </h3><hr class='subtitle'>No disponible<br>";
+	  				html_content = html_content + "<h3 id='enlace'><i class='fas fa-globe'></i> Enlace al contenido y documentos asociados </h3><hr class='subtitle'>No disponible<br>";
   				}else{
-	  				html_content = html_content + "<h3 id='enlace'><i class='fas fa-globe'></i> Enlace Contenido y documentos asociados </h3><hr class='subtitle'><a href='"+item.enlace_al_contenido+"' target='_blank'>Acceder</a><br>";
+	  				html_content = html_content + "<h3 id='enlace'><i class='fas fa-globe'></i> Enlace al contenido y documentos asociados </h3><hr class='subtitle'><a href='"+item.enlace_al_contenido+"' target='_blank'>Acceder</a><br>";
   				} 	  					 	
   				html_content = html_content + "</div></div>";
   				$( "#detallePremio" ).html(html_content);
