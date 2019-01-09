@@ -129,3 +129,15 @@ hr.subtitle{
 .img-opacity-70{
 	filter: brightness(70%);
 }
+/* Tablets y más */
+@media (min-width: 768px) {
+	.img-logo{
+		height:100px;
+	}
+}
+/* Teléfonos */
+@media (max-width: 767px) {
+	.img-logo{
+		height:50px;
+	}		
+}
